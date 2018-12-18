@@ -4,6 +4,11 @@ function playOnomatopeya() {
   onomatopeya.play();
 }
 
+function playOnomatopeya2() {
+  var onomatopeya2 = document.getElementById("OnomatopeyaActual2");// Es la id del sonido.
+  onomatopeya2.play();
+}
+
 // Motivacional
 function playMotivacional() {
   var motiv = document.getElementById("motivacional");// Es la id del sonido.
